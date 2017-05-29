@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xuwi.casinoblackjack.MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blackjack"
+        android:id="@+id/textView"
+        android:fontFeatureSettings=" "
+        android:fontFamily="cursive"
+        android:textSize="60sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="normal|bold|italic"
+        android:layout_marginTop="21dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRules"
+        android:minHeight="30dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnPlay"
+        android:layout_alignStart="@+id/btnPlay" />
+
+    <Button
+        android:text="Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlay"
+        tools:minHeight="30dp"
+        android:minHeight="30dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_above="@+id/btnRules"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCredits"
+        android:minHeight="30dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnRules"
+        android:layout_alignStart="@+id/btnRules" />
+</RelativeLayout>

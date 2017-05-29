@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CasinoBlackjack</string>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>
